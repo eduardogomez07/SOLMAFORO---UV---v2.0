@@ -1,12 +1,12 @@
 # SOLMAFORO---UV---v2.0
-# ☀️ Solmáforo UV Inteligente con IoT
+# Solmáforo UV Inteligente con IoT
 
 ### Sistema de medición, visualización y alerta de radiación ultravioleta
 
 **UPATecO – Universidad Provincial de la Administración, Tecnología y Oficios**  
-**Carrera:** Tecnicatura Universitaria en Robótica  
-**Asignatura:** Transductores y Sensores  
-**Área:** Electrónica – Sistemas Embebidos – Internet de las Cosas (IoT)
+**Carrera:** Tecnicatura Universitaria en Automatización y Robótica  
+**Asignatura:** Transductores y Actuadores 
+**Área:** Electrónica –Robótica– Internet de las Cosas (IoT)
 
 ---
 
@@ -32,7 +32,7 @@ Cuando se detecta un nivel extremo de radiación ultravioleta, el sistema contem
 
 El proyecto integra conocimientos de transductores, sensores, electrónica digital, programación de microcontroladores, comunicaciones inalámbricas y aplicaciones IoT.
 
-## 🎯 2. Objetivos
+## 2. Objetivos
 
 ### Objetivo general
 
@@ -51,7 +51,7 @@ Desarrollar un sistema electrónico inteligente capaz de medir, procesar, visual
 - Implementar un mecanismo de alerta para niveles extremos de radiación.
 - Promover el desarrollo de soluciones tecnológicas aplicadas a la salud y el medio ambiente.
 
-## ⚙️ 3. Arquitectura general del sistema
+## 3. Arquitectura general del sistema
 
 El funcionamiento se organiza en cinco etapas:
 
@@ -97,7 +97,7 @@ El funcionamiento se organiza en cinco etapas:
           (cuando UV ≥ 11)
 ```
 
-## 🔬 4. Componentes y características técnicas
+## 4. Componentes y características técnicas
 
 | Componente | Característica / función |
 |---|---|
@@ -134,7 +134,7 @@ Funciona como señalización visual externa. Su color cambia de acuerdo con el n
 
 Permite almacenar y visualizar las mediciones transmitidas por el ESP32, facilitando el análisis de la evolución temporal de la radiación.
 
-## 🌈 5. Escala de radiación ultravioleta
+## 5. Escala de radiación ultravioleta
 
 El sistema utiliza las siguientes categorías de referencia del índice UV:
 
@@ -184,7 +184,7 @@ Cuando el índice UV alcanza o supera el umbral extremo configurado (UV ≥ 11),
 
 La lógica de alerta considera el reintento de envío y la reactivación de la alarma cuando el nivel de radiación desciende por debajo del umbral durante el tiempo establecido.
 
-## 📊 7. Registro y análisis de radiación UV
+## 7. Registro y análisis de radiación UV
 
 Se realizaron registros de mediciones durante una jornada de noviembre en Salta Capital, con el objetivo de observar el comportamiento de la señal del sensor a lo largo del día.
 
@@ -202,7 +202,7 @@ Este comportamiento es consistente con la variación diaria de la radiación sol
 
 **Nota metodológica:** los valores del gráfico corresponden a la señal registrada por el sistema y deben identificarse con su unidad o escala de adquisición correspondiente. No deben interpretarse automáticamente como valores del índice UV. Para expresar el índice UV real es necesaria una calibración y validación con un instrumento de referencia.
 
-## 🛡️ 8. Importancia y aplicación del proyecto
+## 8. Importancia y aplicación del proyecto
 
 La radiación ultravioleta constituye un factor ambiental de importancia para la salud pública. La exposición excesiva puede provocar quemaduras, envejecimiento prematuro de la piel y lesiones oculares, además de incrementar el riesgo de desarrollar cáncer de piel.
 
@@ -224,7 +224,7 @@ El Solmáforo UV Inteligente propone una herramienta tecnológica de informació
 - Municipios y organismos de prevención.
 - Estaciones de monitoreo ambiental.
 
-## 🧪 9. Calibración y consideraciones experimentales
+## 9. Calibración y consideraciones experimentales
 
 La señal analógica del sensor debe ser procesada para obtener una estimación del índice UV.
 
@@ -243,7 +243,7 @@ Para mejorar la confiabilidad de las mediciones se recomienda:
 
 También debe tenerse en cuenta que la orientación del sensor, las sombras, la presencia de obstáculos y la respuesta espectral del transductor influyen en los resultados.
 
-## 🚀 10. Posibilidades de ampliación
+## 10. Posibilidades de ampliación
 
 El proyecto permite incorporar nuevas funcionalidades:
 
@@ -257,7 +257,7 @@ El proyecto permite incorporar nuevas funcionalidades:
 - Comparación con datos de estaciones meteorológicas oficiales.
 - Desarrollo de algoritmos de calibración y compensación.
 
-## 📌 11. Conclusiones
+## 11. Conclusiones
 
 El desarrollo del Solmáforo UV Inteligente demuestra la aplicación práctica de los conocimientos adquiridos en el área de Transductores y Sensores, integrando adquisición de señales, procesamiento digital, visualización y comunicaciones inalámbricas.
 
@@ -267,7 +267,7 @@ El proyecto constituye una propuesta tecnológica de carácter educativo y aplic
 
 ---
 
-## 🧰 12. Instalación y puesta en marcha
+## 12. Instalación y puesta en marcha
 
 ### Requisitos
 
@@ -298,7 +298,7 @@ No publiques contraseñas de Wi-Fi, claves de escritura de ThingSpeak ni claves 
 
 Utilizá un archivo local `secrets.h` excluido del repositorio y mantené una versión de ejemplo sin datos reales.
 
-## 📂 13. Estructura del proyecto
+## 13. Estructura del proyecto
 
 ```text
 solmaforo-uv-inteligente-iot/
@@ -325,7 +325,7 @@ solmaforo-uv-inteligente-iot/
     └── poster-academico.png
 ```
 
-## 📚 14. Referencias y recursos
+## 14. Referencias y recursos
 
 - Organización Mundial de la Salud (OMS): información sobre radiación ultravioleta e índice UV.
 - Organización Meteorológica Mundial (OMM): información y recomendaciones sobre el índice UV solar.
@@ -337,9 +337,9 @@ solmaforo-uv-inteligente-iot/
 ---
 
 <p align="center">
-  <strong>UPATecO – Tecnicatura Universitaria en Robótica</strong>
+  <strong>UPATecO – Tecnicatura Universitaria en Automatización y Robótica</strong>
   <br>
-  Asignatura: Transductores y Sensores
+  Asignatura: Transductores y Actuadores
   <br><br>
   <em>“Tecnología al servicio de la vida”</em>
 </p>
