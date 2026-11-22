@@ -9,18 +9,8 @@
 **Área:** Electrónica –Robótica– Internet de las Cosas (IoT)
 
 ---
-
-<p align="center">
-  <img src="assets/solmaforo-dispositivo.jpg" alt="Solmáforo UV Inteligente con IoT" width="700">
-</p>
-
-<p align="center">
-  <strong>Medición inteligente · Monitoreo ambiental · Conectividad · Prevención</strong>
-</p>
-
 ---
-
-## 📌 1. Descripción del proyecto
+## 1. Descripción del proyecto
 
 El **Solmáforo UV Inteligente con IoT** es un dispositivo electrónico diseñado para medir y visualizar el nivel de radiación ultravioleta presente en el ambiente, proporcionando información comprensible para prevenir los riesgos asociados a la exposición solar.
 
