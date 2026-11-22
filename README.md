@@ -331,5 +331,4 @@ solmaforo-uv-inteligente-iot/
   <br>
   Asignatura: Transductores y Actuadores
   <br><br>
-  <em>“Tecnología al servicio de la vida”</em>
 </p>
