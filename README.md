@@ -140,7 +140,7 @@ El sistema utiliza las siguientes categorías de referencia del índice UV:
 
 Las recomendaciones se basan en la escala internacional de índice UV. La exposición también depende del horario, la nubosidad, la altitud, la reflexión del entorno y las características individuales.
 
-## 📡 6. Conectividad e Internet de las Cosas
+## 6. Conectividad e Internet de las Cosas
 
 El proyecto incorpora conectividad para ampliar las posibilidades de monitoreo y control.
 
